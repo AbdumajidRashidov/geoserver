@@ -1,0 +1,360 @@
+08 Apr 22:26:28 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+08 Apr 22:26:29 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/Users/mac/Desktop/geoserver/geoserver-2.23.0-bin/bin/../data_dir/gwc'.
+08 Apr 22:26:29 CONFIG [gwc.config] - Create configuration file 'gwc/geowebcache.xml' from template jar:file:/Users/mac/Desktop/geoserver/geoserver-2.23.0-bin/webapps/geoserver/WEB-INF/lib/gwc-core-1.23.0.jar!/geowebcache_empty.xml
+08 Apr 22:26:29 WARN   [config.XMLConfiguration] - GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+08 Apr 22:26:29 WARN   [config.XMLConfiguration] - Will try to use configuration anyway. Please check the order of declared elements against the schema.
+08 Apr 22:26:29 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loading catalog /Users/mac/Desktop/geoserver/geoserver-2.23.0-bin/bin/../data_dir
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'giant_polygon'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'pophatch'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'simple_roads'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'population'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'poi'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'burg'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'polygon'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'raster'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'simple_streams'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'tiger_roads'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'grass'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'dem'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'poly_landmarks'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'point'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'green'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'restricted'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'line'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'cite_lakes'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'generic'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'rain'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'capitals'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded default workspace 'ne'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded workspace 'tiger'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded workspace 'nurc'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded workspace 'cite'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded workspace 'it.geosolutions'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded workspace 'sde'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded workspace 'sf'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded workspace 'topp'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded workspace 'ne'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'coastline'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'populated_places'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'disputed'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'boundary_lines'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'countries_mapcolor9'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded style 'countries'
+08 Apr 22:26:29 CONFIG [org.geoserver] - Loaded coverage store 'arcGridSample', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded coverage 'Arc_Sample', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'Arc_Sample'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded coverage store 'mosaic', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded coverage 'mosaic', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'mosaic'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded coverage store 'img_sample2', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded coverage 'Pk50095', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'Pk50095'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded coverage store 'worldImageSample', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded coverage 'Img_Sample', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'Img_Sample'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded data store 'nyc', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded feature type 'poly_landmarks', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'poly_landmarks'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded feature type 'poi', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'poi'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded feature type 'tiger_roads', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'tiger_roads'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded feature type 'giant_polygon', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'giant_polygon'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded data store 'sf', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded feature type 'restricted', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'restricted'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded feature type 'bugsites', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'bugsites'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded feature type 'streams', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'streams'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded feature type 'archsites', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'archsites'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded feature type 'roads', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'roads'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded coverage store 'sfdem', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded coverage 'sfdem', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'sfdem'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded data store 'states_shapefile', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded feature type 'states', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'states'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded data store 'taz_shapes', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded feature type 'tasmania_water_bodies', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'tasmania_water_bodies'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded feature type 'tasmania_cities', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'tasmania_cities'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded feature type 'tasmania_state_boundaries', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'tasmania_state_boundaries'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded feature type 'tasmania_roads', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'tasmania_roads'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded data store 'NaturalEarth', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded feature type 'populated_places', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'populated_places'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded feature type 'boundary_lines', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'boundary_lines'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded feature type 'disputed_areas', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'disputed_areas'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded feature type 'coastlines', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'coastlines'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded feature type 'countries', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer 'countries'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer group 'world'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer group 'tiger-ny'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer group 'spearfish'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded layer group 'tasmania'
+08 Apr 22:26:30 CONFIG [org.geoserver] - Read catalog in 902.9 ms
+08 Apr 22:26:30 CONFIG [config.XMLConfiguration] - Initializing GridSets from gwc
+08 Apr 22:26:30 CONFIG [config.XMLConfiguration] - Initializing layers from gwc
+08 Apr 22:26:30 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+08 Apr 22:26:30 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+08 Apr 22:26:30 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+08 Apr 22:26:30 CONFIG [gwc.layer] - Loaded 0 tile layers in 1.086 ms
+08 Apr 22:26:30 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+08 Apr 22:26:30 CONFIG [storage.DefaultStorageFinder] - Found system environment variableGEOSERVER_DATA_DIR set to /Users/mac/Desktop/geoserver/geoserver-2.23.0-bin/bin/../data_dir, using it as the default prefix.
+08 Apr 22:26:30 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+08 Apr 22:26:30 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+08 Apr 22:26:30 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl--3ef31051:182c1e8b194:-8000', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded service 'wcs', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded service 'wfs', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded service 'wms', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl-1c443fee:182c0f3f209:-7f98', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded service 'WCSInfoImpl-1c443fee:182c0f3f209:-7f96', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded service 'WFSInfoImpl-1c443fee:182c0f3f209:-7f97', enabled
+08 Apr 22:26:30 CONFIG [org.geoserver] - Loaded service 'WMSInfoImpl-1c443fee:182c0f3f209:-7f99', enabled
+08 Apr 22:26:30 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+08 Apr 22:26:31 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/Users/mac/Desktop/geoserver/geoserver-2.23.0-bin/bin/../data_dir/gwc'.
+08 Apr 22:26:31 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/Users/mac/Desktop/geoserver/geoserver-2.23.0-bin/bin/../data_dir/gwc'.
+08 Apr 22:26:31 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+08 Apr 22:26:31 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+08 Apr 22:26:31 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+08 Apr 22:26:31 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+08 Apr 22:26:31 CONFIG [diskquota.DiskQuotaMonitor] - 28 layers attached to global quota 500.0 MB
+08 Apr 22:26:31 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+08 Apr 22:26:32 WARN   [gce.imagemosaic] - Unable to set ordering between tiff readers spi
+08 Apr 22:26:33 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+08 Apr 22:26:33 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+08 Apr 22:26:33 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+08 Apr 22:26:33 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+08 Apr 22:26:35 CONFIG [platform.resource] - Notifying ENTRY_CREATE change on /Users/mac/Desktop/geoserver/geoserver-2.23.0-bin/bin/../data_dir/gwc-layers. Created: 28, removed: 0, modified: 0
+08 Apr 22:40:12 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:40:12 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 1563ms
+08 Apr 22:40:27 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:40:27 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 2616ms
+08 Apr 22:41:17 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:41:17 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 4116ms
+08 Apr 22:41:35 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:41:35 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 2675ms
+08 Apr 22:42:24 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:42:24 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 3266ms
+08 Apr 22:42:30 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:42:30 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 1108ms
+08 Apr 22:43:05 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:43:05 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 4792ms
+08 Apr 22:43:10 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:43:10 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 4750ms
+08 Apr 22:43:22 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:43:22 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 2615ms
+08 Apr 22:44:31 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:44:31 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 2650ms
+08 Apr 22:44:38 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:44:38 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 3049ms
+08 Apr 22:44:45 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:44:45 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 2983ms
+08 Apr 22:44:55 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:44:55 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 2469ms
+08 Apr 22:45:05 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:45:05 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 4340ms
+08 Apr 22:45:21 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:45:21 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 1720ms
+08 Apr 22:45:23 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:45:23 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 4708ms
+08 Apr 22:45:35 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+08 Apr 22:45:35 INFO   [geoserver.wms] - 
+Request: getCapabilities
+	AcceptLanguages = null
+	BaseUrl = http://localhost:8080/geoserver/
+	Get = false
+	Namespace = null
+	RawKvp = {REQUEST=GetCapabilities, VERSION=1.3.0, SERVICE=WMS}
+	Request = GetCapabilities
+	RequestCharset = null
+	RootLayerEnabled = null
+	UpdateSequence = null
+	Version = 1.3.0
+08 Apr 22:45:35 INFO   [geoserver.servlets] - OutputStream was successfully aborted.
+08 Apr 22:45:35 ERROR  [geoserver.ows] - 
+java.lang.IllegalAccessError: superclass access check failed: class org.marlin.pisces.MarlinRenderingEngine (in unnamed module @0x35b6c76e) cannot access class sun.java2d.pipe.RenderingEngine (in module java.desktop) because module java.desktop does not export sun.java2d.pipe to unnamed module @0x35b6c76e
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:375)
+	at java.desktop/sun.java2d.pipe.RenderingEngine.getInstance(RenderingEngine.java:129)
+	at java.desktop/sun.java2d.pipe.LoopPipe.<clinit>(LoopPipe.java:49)
+	at java.desktop/sun.java2d.SurfaceData.<clinit>(SurfaceData.java:450)
+	at java.desktop/sun.java2d.SunGraphicsEnvironment.createGraphics(SunGraphicsEnvironment.java:134)
+	at java.desktop/sun.java2d.HeadlessGraphicsEnvironment.createGraphics(HeadlessGraphicsEnvironment.java:73)
+	at java.desktop/java.awt.image.BufferedImage.createGraphics(BufferedImage.java:1183)
+	at org.geoserver.wms.map.ImageUtils.prepareTransparency(ImageUtils.java:162)
+	at org.geoserver.wms.legendgraphic.BufferedImageLegendGraphicBuilder.renderRules(BufferedImageLegendGraphicBuilder.java:327)
+	at org.geoserver.wms.legendgraphic.BufferedImageLegendGraphicBuilder.buildLegendGraphic(BufferedImageLegendGraphicBuilder.java:265)
+	at org.geoserver.wms.legendgraphic.BufferedImageLegendGraphicBuilder.buildLegendGraphic(BufferedImageLegendGraphicBuilder.java:77)
+	at org.geoserver.wms.legendgraphic.PNGLegendOutputFormat.produceLegendGraphic(PNGLegendOutputFormat.java:41)
+	at org.geoserver.wms.legendgraphic.PNGLegendOutputFormat.produceLegendGraphic(PNGLegendOutputFormat.java:21)
+	at org.geoserver.wms.capabilities.LegendSampleImpl.createNewSample(LegendSampleImpl.java:178)
+	at org.geoserver.wms.capabilities.LegendSampleImpl.getLegendURLSize(LegendSampleImpl.java:156)
+	at org.geoserver.wms.capabilities.Capabilities_1_3_0_Transformer$Capabilities_1_3_0_Translator.handleLegendURL(Capabilities_1_3_0_Transformer.java:1661)
+	at org.geoserver.wms.capabilities.Capabilities_1_3_0_Transformer$Capabilities_1_3_0_Translator.handleLayerStyles(Capabilities_1_3_0_Transformer.java:1281)
+	at org.geoserver.wms.capabilities.Capabilities_1_3_0_Transformer$Capabilities_1_3_0_Translator.handleLayer(Capabilities_1_3_0_Transformer.java:1220)
+	at org.geoserver.wms.capabilities.Capabilities_1_3_0_Transformer$Capabilities_1_3_0_Translator.handleLayerGroup(Capabilities_1_3_0_Transformer.java:1563)
+	at org.geoserver.wms.capabilities.Capabilities_1_3_0_Transformer$Capabilities_1_3_0_Translator.handleLayerGroups(Capabilities_1_3_0_Transformer.java:1419)
+	at org.geoserver.wms.capabilities.Capabilities_1_3_0_Transformer$Capabilities_1_3_0_Translator.handleLayers(Capabilities_1_3_0_Transformer.java:834)
+	at org.geoserver.wms.capabilities.Capabilities_1_3_0_Transformer$Capabilities_1_3_0_Translator.handleCapability(Capabilities_1_3_0_Transformer.java:626)
+	at org.geoserver.wms.capabilities.Capabilities_1_3_0_Transformer$Capabilities_1_3_0_Translator.encode(Capabilities_1_3_0_Transformer.java:331)
+	at org.geotools.xml.transform.TransformerBase$XMLReaderSupport.parse(TransformerBase.java:1054)
+	at org.apache.xalan.transformer.TransformerIdentityImpl.transform(TransformerIdentityImpl.java:485)
+	at org.geotools.xml.transform.TransformerBase$Task.run(TransformerBase.java:287)
+	at org.geotools.xml.transform.TransformerBase.transform(TransformerBase.java:121)
+	at org.geotools.xml.transform.TransformerBase.transform(TransformerBase.java:103)
+	at org.geoserver.wms.capabilities.Capabilities_1_3_0_Response.write(Capabilities_1_3_0_Response.java:43)
+	at org.geoserver.config.CapabilitiesCacheHeadersCallback$RevalidateTagResponse.write(CapabilitiesCacheHeadersCallback.java:138)
+	at org.geoserver.ows.Dispatcher.response(Dispatcher.java:1018)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:272)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1459)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1656)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:73)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.HTTPMethodFilter.doFilter(HTTPMethodFilter.java:36)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:194)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:43)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.geoserver.security.filter.GeoServerAnonymousAuthenticationFilter.doFilter(GeoServerAnonymousAuthenticationFilter.java:53)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.geoserver.security.filter.GeoServerBasicAuthenticationFilter.doFilter(GeoServerBasicAuthenticationFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.geoserver.security.filter.GeoServerSecurityContextPersistenceFilter$1.doFilterInternal(GeoServerSecurityContextPersistenceFilter.java:72)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:142)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:77)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:201)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1626)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:552)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:600)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1440)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:505)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:191)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+08 Apr 22:45:52 WARN   [geoserver.security] - Failed login, user  from [0:0:0:0:0:0:0:1]
+08 Apr 22:45:52 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 1178ms
+08 Apr 22:46:11 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:46:11 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 1265ms
+08 Apr 22:46:37 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:46:37 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 1535ms
+08 Apr 22:46:43 WARN   [geoserver.security] - Failed login, user  from [0:0:0:0:0:0:0:1]
+08 Apr 22:46:43 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 2127ms
+08 Apr 22:46:57 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:46:57 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 4466ms
+08 Apr 22:47:19 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:47:19 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 3936ms
+08 Apr 22:47:25 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:47:25 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 1062ms
+08 Apr 22:47:32 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:47:32 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 2835ms
+08 Apr 22:47:37 WARN   [geoserver.security] - Failed login, user localhost from [0:0:0:0:0:0:0:1]
+08 Apr 22:47:37 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 1328ms
+08 Apr 23:07:56 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+08 Apr 23:07:56 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+08 Apr 23:07:56 CONFIG [gwc.layer] - Loaded 28 tile layers in 168.3 ms
+08 Apr 23:07:56 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+08 Apr 23:07:56 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+08 Apr 23:07:56 CONFIG [gwc.layer] - Loaded 28 tile layers in 6.011 ms
+08 Apr 23:07:56 WARN   [support.DisposableBeanAdapter] - Custom destroy method 'destroy' on bean with name 'gwcMemoryBlobStore' threw an exception: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@59116967[Not completed, task = org.geowebcache.storage.blobstore.memory.MemoryBlobStore$BlobStoreTask@3c1bcff1] rejected from java.util.concurrent.ThreadPoolExecutor@5153ecc4[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+08 Apr 23:07:56 INFO   [geoserver.logging] - Beginning GeoServer cleanup sequence
